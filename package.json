@@ -1,0 +1,28 @@
+{
+	"dependencies": {
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"mongodb": "^4.13.0",
+		"mongoose": "^6.8.1"
+	},
+	"name": "mongo-express",
+	"description": "An attempt to sit a REST framework on top of Mongo in an easily reproducible way.",
+	"version": "1.0.0",
+	"main": "index.js",
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/gilbertVirgo/mongo-express.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/gilbertVirgo/mongo-express/issues"
+	},
+	"homepage": "https://github.com/gilbertVirgo/mongo-express#readme"
+}
